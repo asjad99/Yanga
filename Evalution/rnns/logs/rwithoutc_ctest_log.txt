@@ -1,0 +1,27 @@
+Epoch: 1 Learning rate: 1.000
+Epoch: 1 Train Perplexity: 128.617
+Epoch: 2 Learning rate: 1.000
+Epoch: 2 Train Perplexity: 9.094
+Epoch: 3 Learning rate: 1.000
+Epoch: 3 Train Perplexity: 4.835
+Epoch: 4 Learning rate: 1.000
+Epoch: 4 Train Perplexity: 3.661
+Epoch: 5 Learning rate: 0.500
+Epoch: 5 Train Perplexity: 2.521
+Epoch: 6 Learning rate: 0.250
+Epoch: 6 Train Perplexity: 2.235
+Epoch: 7 Learning rate: 0.125
+Epoch: 7 Train Perplexity: 2.135
+Epoch: 8 Learning rate: 0.062
+Epoch: 8 Train Perplexity: 2.092
+Epoch: 9 Learning rate: 0.031
+Epoch: 9 Train Perplexity: 2.071
+Epoch: 10 Learning rate: 0.016
+Epoch: 10 Train Perplexity: 2.060
+Epoch: 11 Learning rate: 0.008
+Epoch: 11 Train Perplexity: 2.054
+Epoch: 12 Learning rate: 0.004
+Epoch: 12 Train Perplexity: 2.051
+Epoch: 13 Learning rate: 0.002
+Epoch: 13 Train Perplexity: 2.050
+Test Perplexity: 2.518
