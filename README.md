@@ -12,9 +12,12 @@
 
 The key thing to note here is that the task is not changing for every timestep, whether we are predicting the next character or tagging the part of speech of a word. The input to the function is changing at every time step because for longer sentences the function needs to keep track of the larger set of words.
 In other words, we need to define a function that has these characteristics:
-Ensure that the output Yt is dependent on previous inputs
-Ensure that the function can deal with a variable number of inputs
-Ensure that the function executed at each time step is the same.
+
+- Ensure that the output Yt is dependent on previous inputs
+- Ensure that the function can deal with a variable number of inputs
+- Ensure that the function executed at each time step is the same.
+
+  ![image](https://user-images.githubusercontent.com/3470924/117558932-85373b00-b0c4-11eb-9172-1d9811535342.png)
 
 Recurrent Neural Networks(RNN) are a type of Neural Network where the output from the previous step is fed as input to the current step.
 
@@ -29,8 +32,6 @@ Once we compute the hidden representation of the input, the final output (yᵢ) 
 
 
 #### Language Modeling 
-  ![image](https://user-images.githubusercontent.com/3470924/117558932-85373b00-b0c4-11eb-9172-1d9811535342.png)
-
 
 ####  Recommender Engine
 
@@ -39,7 +40,8 @@ see blog post: https://www.asjadk.io/music/
 
 ----
 
-#### Allocation Resources in Processes : 
+#### Decision Support for Context-aware Resource Allocation using LSTM networks: 
+
 
 The allocation of resources to process tasks can have a significant impact on the performance (such as cost, time) of those tasks, and hence of the overall process. Past resource allocation decisions, when correlated with process execution histories annotated with quality of service (or performance) measures, can be a rich source of knowledge about the best resource allocation decisions. The optimality of resource allocation decisions is not determined by the process instance alone, but also by the context in which these instances are executed. This phenomenon turns out to be even more compelling when the resources in question are human resources. Human workers with same the organizational role and capabilities can have heterogeneous behaviors based on their operational context. In this work, we propose an approach to supporting resource allocation decisions by extracting information about the process context and process performance from past process executions. 
 
